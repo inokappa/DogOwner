@@ -5,7 +5,7 @@ require 'thor'
 require 'terminal-table'
 
 module Dogowner
-  class Dogcollar < Thor
+  class DOGMONCLI < Thor
 
     desc "list", "Desclibe Monitor list"
     def list(name=nil)

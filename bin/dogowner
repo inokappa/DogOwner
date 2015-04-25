@@ -1,4 +1,6 @@
 #!/usr/bin/env ruby
 
 require 'dogowner'
-Dogowner::Dogcollar.start(ARGV)
+Dogowner::DOGMONCLI.start(ARGV)
+
+#
